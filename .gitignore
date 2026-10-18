@@ -1,0 +1,48 @@
+# ==========================================
+# Kotlin & Build Outputs
+# ==========================================
+*.class
+*.log
+*.jar
+*.war
+
+# Kotlin 2.0+ compiler data and session caches (Crucial to prevent binary bloat)
+.kotlin/
+
+# ==========================================
+# Build Tools (Gradle)
+# ==========================================
+.gradle/
+build/
+
+# Do NOT ignore the wrapper script or its jar if you want team consistency
+# !gradle-wrapper.jar
+
+# ==========================================
+# IDEs (IntelliJ IDEA & Android Studio)
+# ==========================================
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+local.properties
+
+# Optional: If you want to share specific IntelliJ configurations, 
+# uncomment the lines below to keep them in version control:
+#!.idea/runConfigurations/
+#!.idea/codeStyles/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.stackdump

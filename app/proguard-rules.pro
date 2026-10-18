@@ -1,0 +1,7 @@
+-keepattributes *Annotation*, InnerClasses
+-keep,includedescriptorclasses class com.echo.app.**$$serializer { *; }
+-keepclassmembers class com.echo.app.** { *** Companion; }
+-keepclasseswithmembers class com.echo.app.** { kotlinx.serialization.KSerializer serializer(...); }
+-dontwarn io.ktor.**
+-dontwarn org.slf4j.**
+-dontwarn java.lang.management.**
